@@ -1,0 +1,140 @@
+.app__chef{
+    background: var();
+    width: 100%;
+    
+
+}
+.app__chef-img{
+    width: 45%;
+    justify-content: flex-start;
+    align-items: center;
+    margin:2rem 0;
+    margin-left: 5rem;
+
+}
+.app__chef-img img{
+    width: 80%;
+    height:auto;
+}
+.app__chef-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 55%;
+
+
+}
+.app__chef-info_words p{
+    margin: 0rem 3rem;
+    
+    
+    
+
+}
+.app__chef-info_words img{
+    width: 56px;
+    height: auto;
+    margin-right: 1rem;
+
+}
+.app__chef-info_words{
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+    margin:3rem 0;
+}
+.app__chef-sign img{
+    width: 20%;
+    height: auto;
+    margin-top: 1rem;
+}
+.app__chef-sign p{
+    letter-spacing: 0.07em;
+    margin-bottom: 1rem;
+}
+.app__chef-sign h3{
+    font-size: 30px;
+    color:var(--color-golden);
+    font-weight: 300;
+}
+.app__chef-info_headtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 3%;
+    
+    
+}
+
+@media screen and (max-width:2000px){
+    .app__chef-info_words{
+        width: 100%;
+    }
+   
+
+}
+@media screen and (max-width:1110px){
+    .app__chef-info_words{
+        width: 100%;
+    }
+    .app__chef{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .app__chef-img{
+        margin-left: 0;
+        width: 80%;
+    }
+    .app__chef-img img{
+        width: 100%;
+    }
+    .app__chef-info{
+        margin: 0;
+    width: 100%;
+    padding-left: 5%;
+    margin-top:2rem;
+
+    }
+
+}
+@media screen and (max-width:650px){
+    .app__chef{
+        display: flex;
+        flex-direction: column;
+    }
+    .app__chef-img{
+        width: 80%;
+        margin-left: 0;
+    }
+    .app__chef-img img{
+        width: 100%;
+        height:auto;
+    }
+   .app__chef-info{
+    margin: 0;
+    width: 100%;
+    padding-left: 5%;
+    margin-top:2rem;
+    
+   }
+   .app__chef-info_headtext{
+    margin-left: 2%;
+   }
+   .app__chef-info_words{
+    font-size: 10px;
+    padding: 0;
+   
+   }
+   .app__chef-info_words p{
+    margin:0;
+    margin-right: 3%;
+   }
+   .app__chef-sign img{
+     width: 75%;
+     height: auto;
+     align-items: center;
+
+   }
+    
+}

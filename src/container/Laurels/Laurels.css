@@ -1,0 +1,64 @@
+.app__awards_laurels{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:3rem 0;
+}
+.app__awards_laurels-card{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem;
+    min-width: 300px;
+   
+
+}
+.app__awards_laurels-card img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.app__awards_laurels-card_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.app__wrapper_img{
+    flex: 1 1;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+
+
+@media screen and (min-width:1900px){
+    .app__awards_laurels-card{
+        min-width: 390px;
+
+    }
+    .app__awards_laurels-card img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    
+    .app__awards_laurels-card_content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width:450px){
+    .app__awards_laurels-card{
+        min-width:100%;
+        margin:1rem 0;
+
+    }
+}
